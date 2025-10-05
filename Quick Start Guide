@@ -1,0 +1,17 @@
+# 1. Setup environment
+python setup.py
+
+# 2. Configure API keys
+# Edit .env file with your News API key
+
+# 3. Run demo to see all features
+python demo.py
+
+# 4. Start paper trading
+python main.py --run-once  # Single cycle test
+
+# 5. Run continuous trading
+python main.py --mode intraday  # or --mode swing
+
+# 6. Backtest strategy
+python main.py --backtest --start-date 2024-01-01
